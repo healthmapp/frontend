@@ -3,7 +3,9 @@ import Map from "../components/Map"
 
 const style = {
   wrapper: `h-screen w-screen flex flex-col`,
-  main: `color-black`,
+  main: `h-full w-screen flex-1 z-10`,
+  mapContainer: `flex-1 w-full h-full`,
+  
 }
 
 export default function Home(){

@@ -18,7 +18,7 @@ function Navbar() {
     <div className={style.wrapper}>
         <div className={style.leftMenu}>
             <div className={style.logo}>HealthMap</div>
-            <div className={style.menuItem}></div>
+            <div className={style.menuItem}>Find Meditation Spots</div>
             <div className={style.menuItem}></div>
             <div className={style.menuItem}></div>
         </div>

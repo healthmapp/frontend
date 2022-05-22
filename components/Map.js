@@ -2,7 +2,7 @@ import mapboxgl from "mapbox-gl";
 import { useEffect } from "react";
 
 const style = {
-  wrapper: `flex-1 h-full w-full`,
+  wrapper: `flex-1 h-full w-full overflow-hidden overflow-hidden overflow-x-hidden`,
 };
 
 mapboxgl.accessToken =
@@ -15,6 +15,7 @@ function Map() {
       style: "mapbox://styles/chiragdogra/cl3g3lt7k007g14ndjil11m2m",
       center: [-99.29011, 39.39172],
       zoom: 3,
+      
     });
   });
   return <div className={style.wrapper} id="map" />;

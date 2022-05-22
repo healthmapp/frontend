@@ -2,7 +2,7 @@ import Image from  'next/image'
 import avatar from '../temp/avatar.png'
 
 const style = {
-    wrapper: `h-16 w-full bg-green-400 text-white flex md:justify-around items-center px-60`,
+    wrapper: `h-16 w-full bg-green-400 text-white flex md:justify-around items-center px-60 `,
     leftMenu: `flex gap-3`,
     logo: `text-3xl text-white flex cursor-pointer mr-16`,
     menuItem: `text-white text-lg flex cursor-pointer font-medium items-center mx-4 cursor-pointer`,
@@ -26,7 +26,7 @@ function Navbar() {
             <div className={style.menuItem}>Help</div>
             <div className={style.menuItem}>UserName</div>
             <div className={style.userImageContainer}>
-                <Image className={style.userImageContainer} src={avatar} width={40} height={40} />
+                <Image className={style.userImageContainer} src={avatar} width={40} height={40} alt="user" />
             </div>
         </div>
     </div>
